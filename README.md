@@ -4,6 +4,7 @@ Watching the client interact with the server and knowing how I got them to inter
 
 ## Client-Server 1 (Echo Server)
 This first client-server I had to create was the ability for a client to send a string to a server, and granted it was alphabetic characters only the server would reply with the same message the client sent. Otherwise it would throw an error.
+![gif of client-server 1 working](socket-programming-1.gif)
 #### The Client Code
 ```Python
 #!/usr/bin/env python3
@@ -67,6 +68,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
 ## Client-Server 2 (Power of Two Check)
 this Client-Server allows the client to enter up to 4 numbers and then the server will check if each of these numbers are a power of two.
+![gif of client-server 2 working](socket-programming-2.gif)
 #### The Client Code
 ```Python
 #!/usr/bin/env python3
